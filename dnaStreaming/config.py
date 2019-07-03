@@ -18,8 +18,8 @@ class Config(object):
     DEFAULT_HOST = 'https://api.dowjones.com'
 
     DEFAULT_CUST_CONFIG_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), './customer_config.json'))
-    ENV_VAR_SUBSCRIPTION_ID = 'SUBSCRIPTION_ID'
-    ENV_VAR_USER_KEY = 'USER_KEY'
+    ENV_VAR_SUBSCRIPTION_ID = 'dj-synhub-stream-ea30b5a4e76509039d8819d9768d1aeb-stx2lvnlk4-filtered-LO2IK5'
+    ENV_VAR_USER_KEY = 'ea30b5a4e76509039d8819d9768d1aeb'
     ENV_VAR_SERVICE_ACCOUNT_ID = 'SERVICE_ACCOUNT_ID'
     ENV_VAR_USER_ID = 'USER_ID'
     ENV_VAR_CLIENT_ID = 'CLIENT_ID'
